@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ArrayOfBread xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bread>
+    <id>1</id>
+    <breadName>Full Corn bread</breadName>
+    <quantity>10</quantity>
+    <recipe>1. Preheat oven to 400 degrees F.
+2. Spray an 8x8-inch baking dish or muffin tin with cooking spray (or line with paper liners). Set aside.
+3. In a large bowl, melt the butter in the microwave (or melt on the stove and transfer to a large bowl).
+4. Add the honey and applesauce and whisk to combine. Whisk in the buttermilk, egg and vanilla.
+5. Add the baking powder and salt and whisk until very well combined.
+6. Add the cornmeal and white whole wheat flour. Stir with a rubber spatula until barely combined. Be careful not to over-mix; it’s ok if you see a few streaks of flour in the batter.
+7. Transfer to the prepared baking dish (or scoop into the muffin tin).
+8. Bake for 22-25 minutes, until a tester inserted in the center comes out clean. (Bake muffins for 12-15 minutes. Let cool in the pan for 5 minutes before removing.) Serve warm.</recipe>
+    <prepTime>20 mins</prepTime>
+    <cookTime>20 mins </cookTime>
+    <total>40 mins </total>
+  </Bread>
+  <Bread>
+    <id>2</id>
+    <breadName>Wheat bread</breadName>
+    <quantity>10</quantity>
+  </Bread>
+  <Bread>
+    <id>3</id>
+    <breadName>Whole Grain Rye Bread</breadName>
+    <quantity>10</quantity>
+  </Bread>
+  <Bread>
+    <id>4</id>
+    <breadName>Bread Rolls</breadName>
+    <quantity>10</quantity>
+  </Bread>
+  <Bread>
+    <id>5</id>
+    <breadName>Pretzels</breadName>
+    <quantity>10</quantity>
+  </Bread>
+  <Bread>
+    <id>6</id>
+    <breadName>White Bread</breadName>
+    <quantity>10</quantity>
+  </Bread>
+  <Bread>
+    <id>0</id>
+    <breadName>Edit...</breadName>
+    <quantity>0</quantity>
+  </Bread>
+</ArrayOfBread>

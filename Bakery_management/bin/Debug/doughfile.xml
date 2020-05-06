@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfDoughdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>1</doughid>
+    <doughName>Sour Dough</doughName>
+    <doughquantity>60</doughquantity>
+    <doughquantmul>6</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>2</doughid>
+    <doughName>Normal Dough</doughName>
+    <doughquantity>70</doughquantity>
+    <doughquantmul>7</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>2</breadid>
+    <doughid>3</doughid>
+    <doughName>Corn Dough</doughName>
+    <doughquantity>30</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>2</breadid>
+    <doughid>4</doughid>
+    <doughName>Rolled Dough</doughName>
+    <doughquantity>50</doughquantity>
+    <doughquantmul>5</doughquantmul>
+  </doughdata>
+</ArrayOfDoughdata>

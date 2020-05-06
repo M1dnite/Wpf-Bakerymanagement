@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfInventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Inventory>
+    <invenId>1</invenId>
+    <invitemName>Sugar</invitemName>
+    <invQuantity>20</invQuantity>
+    <category>grocery</category>
+  </Inventory>
+  <Inventory>
+    <invenId />
+    <invitemName />
+    <invQuantity />
+    <category />
+  </Inventory>
+  <Inventory>
+    <invenId>Edit..</invenId>
+    <invitemName>Edit..</invitemName>
+    <invQuantity>Edit..</invQuantity>
+    <category>Edit..</category>
+  </Inventory>
+  <Inventory>
+    <invenId>002</invenId>
+    <invitemName>Wheat</invitemName>
+    <invQuantity>20</invQuantity>
+    <category>grocery</category>
+  </Inventory>
+</ArrayOfInventory>

@@ -1,0 +1,14 @@
+﻿<Application x:Class="Bakery_management.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Bakery_management"
+             StartupUri="MainWindow.xaml" Startup="Application_Startup" Exit="Application_Exit">
+    <Application.Resources>
+        
+        <!--Datagrid Style-->
+
+        
+        
+
+    </Application.Resources>
+</Application>
