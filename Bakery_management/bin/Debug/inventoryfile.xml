@@ -3,25 +3,37 @@
   <Inventory>
     <invenId>1</invenId>
     <invitemName>Sugar</invitemName>
-    <invQuantity>20</invQuantity>
+    <invQuantity>20 kgs</invQuantity>
     <category>grocery</category>
   </Inventory>
   <Inventory>
-    <invenId />
-    <invitemName />
-    <invQuantity />
-    <category />
+    <invenId>2</invenId>
+    <invitemName>Salt</invitemName>
+    <invQuantity>15 kgs</invQuantity>
+    <category>grocery</category>
   </Inventory>
   <Inventory>
-    <invenId>Edit..</invenId>
-    <invitemName>Edit..</invitemName>
-    <invQuantity>Edit..</invQuantity>
-    <category>Edit..</category>
+    <invenId>3</invenId>
+    <invitemName>Butter</invitemName>
+    <invQuantity>8 kgs</invQuantity>
+    <category>grocery</category>
   </Inventory>
   <Inventory>
-    <invenId>002</invenId>
-    <invitemName>Wheat</invitemName>
-    <invQuantity>20</invQuantity>
+    <invenId>4</invenId>
+    <invitemName>Yeast</invitemName>
+    <invQuantity>5 kgs</invQuantity>
+    <category>grocery</category>
+  </Inventory>
+  <Inventory>
+    <invenId>5</invenId>
+    <invitemName>Milk</invitemName>
+    <invQuantity>12 litres</invQuantity>
+    <category>grocery</category>
+  </Inventory>
+  <Inventory>
+    <invenId>6</invenId>
+    <invitemName>Flour</invitemName>
+    <invQuantity>30 kgs</invQuantity>
     <category>grocery</category>
   </Inventory>
 </ArrayOfInventory>

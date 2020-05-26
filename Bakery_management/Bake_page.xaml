@@ -5,56 +5,39 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Bakery_management"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="900"
       Title="Bake page" Loaded="Page_Loaded"
       xmlns:Resx="clr-namespace:Bakery_management.Properties">
 
-    <Grid Background="#E0CC80">
+    <Grid Background="White">
 
 
-        <!--<TabControl HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800" Background="#E0CC80">-->
 
-        <!--order summary tabitem-->
-        <!--<TabItem Header="Order Summary" FontWeight="DemiBold">
-                <Grid Background="#E0CC80" Margin="0,-1,-1,-3" >
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="12*"/>
-                        <ColumnDefinition Width="41*"/>
-                    </Grid.ColumnDefinitions>-->
-
-        <!--input tboxes-->
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="93*"/>
                 <ColumnDefinition Width="307*"/>
             </Grid.ColumnDefinitions>
-            <StackPanel HorizontalAlignment="Left" Height="121" Margin="10,19,0,0" VerticalAlignment="Top" Width="251" Grid.Column="1" DataContext="{Binding ElementName=Lbx_orders,Path=SelectedItem}">
+            <StackPanel HorizontalAlignment="Left" Height="116" Margin="34,46,0,0" VerticalAlignment="Top" Width="319" Grid.Column="1" DataContext="{Binding ElementName=Lbx_orders,Path=SelectedItem}">
 
                 <StackPanel  Orientation="Horizontal" Margin="0,5,10,5">
                     <TextBlock Text="{x:Static Resx:Resources.Tbk_prodName}" Width="100" Height="23" VerticalAlignment="Top"/>
-                    <TextBox Text="{Binding breadName}" Width="135" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding breadName}" Width="135" HorizontalAlignment="Right" />
                 </StackPanel>
                 <StackPanel  Orientation="Horizontal" Margin="0,5,10,5">
                     <TextBlock Text="{x:Static Resx:Resources.Tbk_quantity}" Width="100" Height="23" VerticalAlignment="Top"/>
-                    <TextBox Text="{Binding quantity}" Width="135" HorizontalAlignment="Right"/>
+                    <TextBox Text="{Binding quantity}" Width="135" HorizontalAlignment="Right" PreviewTextInput="Tbx_input_int" />
                 </StackPanel>
             </StackPanel>
 
             <!--datagrid stkpanel-->
-            <StackPanel HorizontalAlignment="Left" Height="232" Margin="10,179,0,0" VerticalAlignment="Top" Width="260" Grid.Column="1">
+            <StackPanel HorizontalAlignment="Left" Height="226" Margin="34,185,0,0" VerticalAlignment="Top" Width="319" Grid.Column="1">
                 <StackPanel>
                     <TextBlock Text="{x:Static Resx:Resources.Tbk_datagrid}" FontWeight="DemiBold"/>
                 </StackPanel>
-                <DataGrid x:Name="Dgrid_dough" AutoGenerateColumns="False" Margin="0,0,10,0" Height="224">
+                <DataGrid x:Name="Dgrid_dough" AutoGenerateColumns="False" Margin="0,0,10,0" Height="203">
 
-                    <!--datagrid style-->
-                    <!--<DataGrid.Resources>
-                        <Style TargetType="{x:Type DataGridColumnHeader}">
-                            <Setter Property="FontWeight" Value="SemiBold"/>
-                            <Setter Property="BorderThickness" Value="1,1,1,2"/>
-                            <Setter Property="BorderBrush" Value="Black"/>
-                        </Style>
-                    </DataGrid.Resources>-->
+
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="{x:Static Resx:Resources.Tbk_prodName}" Width="180" Binding="{Binding doughName, Mode=OneTime}"/>
                         <DataGridTextColumn Header="{x:Static Resx:Resources.Tbk_quantity}" Width="*" Binding="{Binding doughquantity, Mode=OneWay}"/>
@@ -62,7 +45,7 @@
                 </DataGrid>
             </StackPanel>
             <!--List box-->
-            <ListBox Name="Lbx_orders" HorizontalAlignment="Left" Height="250" Margin="10,71,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="Lbx_orders_SelectionChanged">
+            <ListBox Name="Lbx_orders" HorizontalAlignment="Left" Height="250" Margin="10,71,0,0" VerticalAlignment="Top" Width="189" SelectionChanged="Lbx_orders_SelectionChanged" Background="WhiteSmoke">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock Margin="0,4">
@@ -75,21 +58,21 @@
             </ListBox>
 
             <!--add del buttons-->
-            <StackPanel HorizontalAlignment="Left" Height="66" Margin="10,326,0,0" VerticalAlignment="Top" Width="150" Orientation="Horizontal">
-                <Button Name="Btn_add" Click="Btn_add_click" Content="{x:Static Resx:Resources.Btn_add}"  Width="60" Margin="10,10,0,23"/>
-                <Button Name="Btn_del" Click="Btn_del_click" Content="{x:Static Resx:Resources.Btn_del}" Width="60" Margin="10,10,10,23" />
+            <StackPanel HorizontalAlignment="Left" Height="78" Margin="10,338,0,0" VerticalAlignment="Top" Width="189" Orientation="Horizontal">
+                <Button Name="Btn_add" FontSize="30" Click="Btn_add_click" Content="+"  Width="70" Background="Green" Margin="10,10,0,10" Height="Auto" ToolTip="{x:Static Resx:Resources.button_add}"/>
+                <Button  Name="Btn_del" FontSize="30"  Background="Red" Click="Btn_del_click" Content="-" Width="70" Margin="10" Height="Auto" ToolTip="{x:Static Resx:Resources.button_delete}"/>
             </StackPanel>
 
             <!--search filter-->
-            <StackPanel HorizontalAlignment="Left" Height="56" Margin="10,10,0,0" VerticalAlignment="Top" Width="150">
+            <StackPanel HorizontalAlignment="Left" Height="56" Margin="10,10,0,0" VerticalAlignment="Top" Width="189">
                 <TextBlock TextWrapping="Wrap" Text="{x:Static Resx:Resources.Tbk_filter}" FontStyle="Italic" Foreground="Gray"/>
                 <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="Tbx_search" Height="22" TextWrapping="Wrap" Text="" Width="129" TextChanged="Tbx_search_filter" ToolTip="Enter part of Product name"/>
+                    <TextBox x:Name="Tbx_search" Height="22" TextWrapping="Wrap" Text="" Width="150" TextChanged="Tbx_search_filter" />
                 </StackPanel>
             </StackPanel>
 
             <!--prep stkpnl-->
-            <StackPanel HorizontalAlignment="Left" Height="397" Margin="305,19,0,0" VerticalAlignment="Top" Width="299" DataContext="{Binding ElementName=Lbx_orders,Path=SelectedItem}" Grid.Column="1">
+            <StackPanel HorizontalAlignment="Left" Height="397" Margin="373,19,0,0" VerticalAlignment="Top" Width="308" DataContext="{Binding ElementName=Lbx_orders,Path=SelectedItem}" Grid.Column="1">
                 <StackPanel Orientation="Vertical">
                     <TextBlock Text="{Binding breadName}" FontWeight="Bold"/>
                 </StackPanel>
@@ -105,25 +88,27 @@
                 <!--timer stkpnl-->
                 <StackPanel Height="109" Margin="8,0,10,0">
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
-                        <TextBlock Text="{x:Static Resx:Resources.Tbk_prep}" Width="65"/>
+                        <TextBlock Text="{x:Static Resx:Resources.Tbk_prep}" Width="100"/>
                         <TextBox Text="{Binding prepTime}" Width="60"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
-                        <TextBlock Text="{x:Static Resx:Resources.Tbk_cook}" Width="65"/>
+                        <TextBlock Text="{x:Static Resx:Resources.Tbk_cook}" Width="100"/>
                         <TextBox Text="{Binding cookTime}" Width="60"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{x:Static Resx:Resources.Tbk_total}" Width="65"/>
+                        <TextBlock Text="{x:Static Resx:Resources.Tbk_total}" Width="100"/>
                         <TextBox Text="{Binding total}" Width="60"/>
                     </StackPanel>
                 </StackPanel>
+                
+
             </StackPanel>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="{x:Static Resx:Resources.Tbx_baksection}" VerticalAlignment="Top" Width="268" Height="31" FontSize="20" FontWeight="SemiBold"/>
 
 
 
 
         </Grid>
-        <!--</TabItem>-->
 
 
 
@@ -137,10 +122,8 @@
 
 
 
-        <!--</Grid>
-            -->
-        <!--</TabItem>
-        </TabControl>-->
+
+
 
 
 

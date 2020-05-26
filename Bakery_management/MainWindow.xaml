@@ -6,34 +6,38 @@
         xmlns:local="clr-namespace:Bakery_management"
         mc:Ignorable="d"
         Loaded="Window_Loaded"
-        Title="MainWindow" Height="550" Width="900" WindowStartupLocation="CenterScreen"
-        xmlns:Resx="clr-namespace:Bakery_management.Properties">
-    <Grid Background="#E0CC80">
+        Title="{x:Static Resx:Resources.app}" Height="600" Width="1080" WindowStartupLocation="CenterScreen"
+        xmlns:Resx="clr-namespace:Bakery_management.Properties"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <Grid Background="WhiteSmoke">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="79*"/>
             <ColumnDefinition Width="367*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="23*"/>
-            <RowDefinition Height="396*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="525*"/>
         </Grid.RowDefinitions>
 
         <!--Left Dashboard-->
-        <StackPanel HorizontalAlignment="Left" Height="355" VerticalAlignment="Bottom" Width="139" Margin="10,0,0,22" Grid.Row="1">
+        <StackPanel HorizontalAlignment="Left" Height="342" VerticalAlignment="Bottom" Width="170" Margin="10,0,0,22" Grid.Row="1">
 
-            <Button Content ="{x:Static Resx:Resources.Btn_bakery}" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="119"  Margin="10,50" Click="Btnclick_bake"/>
-            <Button Content ="{x:Static Resx:Resources.Btn_inventory}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="45"
-                    Width="119" Margin="10,50" Click="Btnclick_inventory" />
+            <Button HorizontalAlignment="Center" VerticalAlignment="Top" Height="70" Width="118"  Margin="26,50" Click="Btnclick_bake"  Content="{x:Static Resx:Resources.Btn_bakery}">
+
+            </Button>
+            <Button Content ="{x:Static Resx:Resources.Btn_inventory}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="70"
+                    Width="118" Margin="26,50" Click="Btnclick_inventory" />
 
         </StackPanel>
 
         <!--Frame code-->
 
-        <Frame Content="Frame" x:Name="Main_frame" Height="471" 
-                VerticalAlignment="Top" NavigationUIVisibility="Hidden" Margin="10,10,10,0" Grid.Row="1" Grid.Column="1"/>
-        <StackPanel Margin="10,10,10,442" Orientation="Vertical" Grid.Row="1">
-            <ComboBox Name="Cbx_language" SelectionChanged="Cbx_changelang_selection" HorizontalAlignment="Left" VerticalAlignment="Top" Width="128"/>
+        <Frame  x:Name="Main_frame" Height="515" 
+                VerticalAlignment="Top" NavigationUIVisibility="Hidden" Margin="10,10,0,0" Grid.Row="1" Grid.Column="1"/>
+        <StackPanel Margin="10,68,10,383" Orientation="Vertical" Grid.Row="1">
+            <ComboBox Name="Cbx_language" SelectionChanged="Cbx_changelang_selection" HorizontalAlignment="Left" VerticalAlignment="Top" Width="123" Margin="24,0,0,0" Height="33" ToolTip="{x:Static Resx:Resources.Cbx_language}"/>
         </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="{x:Static Resx:Resources.title}" FontSize="20" FontWeight="Bold" VerticalAlignment="Top" Height="34" Width="293" Foreground="Black" Grid.ColumnSpan="2"/>
 
 
 

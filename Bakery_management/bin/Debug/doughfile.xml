@@ -3,29 +3,274 @@
   <doughdata>
     <breadid>1</breadid>
     <doughid>1</doughid>
-    <doughName>Sour Dough</doughName>
-    <doughquantity>60</doughquantity>
-    <doughquantmul>6</doughquantmul>
+    <doughName>Corn Meal</doughName>
+    <doughquantity>500</doughquantity>
+    <doughquantmul>5</doughquantmul>
   </doughdata>
   <doughdata>
     <breadid>1</breadid>
     <doughid>2</doughid>
-    <doughName>Normal Dough</doughName>
-    <doughquantity>70</doughquantity>
-    <doughquantmul>7</doughquantmul>
+    <doughName>Flour</doughName>
+    <doughquantity>400</doughquantity>
+    <doughquantmul>4</doughquantmul>
   </doughdata>
   <doughdata>
-    <breadid>2</breadid>
+    <breadid>1</breadid>
     <doughid>3</doughid>
-    <doughName>Corn Dough</doughName>
-    <doughquantity>30</doughquantity>
+    <doughName>Sugar</doughName>
+    <doughquantity>300</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>4</doughid>
+    <doughName>Salt</doughName>
+    <doughquantity>200</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>5</doughid>
+    <doughName>Baking Powder</doughName>
+    <doughquantity>300</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>6</doughid>
+    <doughName>Oil</doughName>
+    <doughquantity>300</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>7</doughid>
+    <doughName>Butter</doughName>
+    <doughquantity>300</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>8</doughid>
+    <doughName>Honey</doughName>
+    <doughquantity>200</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>9</doughid>
+    <doughName>Eggs</doughName>
+    <doughquantity>300</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>1</breadid>
+    <doughid>10</doughid>
+    <doughName>Milk</doughName>
+    <doughquantity>300</doughquantity>
     <doughquantmul>3</doughquantmul>
   </doughdata>
   <doughdata>
     <breadid>2</breadid>
-    <doughid>4</doughid>
-    <doughName>Rolled Dough</doughName>
-    <doughquantity>50</doughquantity>
+    <doughid>11</doughid>
+    <doughName>Sour Dough</doughName>
+    <doughquantity>105</doughquantity>
+    <doughquantmul>7</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>2</breadid>
+    <doughid>12</doughid>
+    <doughName>Sugar</doughName>
+    <doughquantity>45</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>2</breadid>
+    <doughid>13</doughid>
+    <doughName>Molases</doughName>
+    <doughquantity>30</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>2</breadid>
+    <doughid>14</doughid>
+    <doughName>Salt</doughName>
+    <doughquantity>30</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>2</breadid>
+    <doughid>15</doughid>
+    <doughName>Oil</doughName>
+    <doughquantity>60</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>3</breadid>
+    <doughid>16</doughid>
+    <doughName>Sour Dough</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>11</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>3</breadid>
+    <doughid>17</doughid>
+    <doughName>Butter</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>3</breadid>
+    <doughid>18</doughid>
+    <doughName>Honey</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>3</breadid>
+    <doughid>19</doughid>
+    <doughName>Egg White</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>3</breadid>
+    <doughid>20</doughid>
+    <doughName>Caraway Seeds</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>3</breadid>
+    <doughid>21</doughid>
+    <doughName>Yeast</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>4</breadid>
+    <doughid>22</doughid>
+    <doughName>Normal Dough</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>12</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>4</breadid>
+    <doughid>23</doughid>
+    <doughName>Yeast</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>4</breadid>
+    <doughid>24</doughid>
+    <doughName>Sugar</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>4</breadid>
+    <doughid>25</doughid>
+    <doughName>Flour</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>16</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>4</breadid>
+    <doughid>26</doughid>
+    <doughName>Salt</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>5</breadid>
+    <doughid>27</doughid>
+    <doughName>Salt</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>5</breadid>
+    <doughid>28</doughid>
+    <doughName>Yeast</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>5</breadid>
+    <doughid>29</doughid>
+    <doughName>Butter</doughName>
+    <doughquantity>1</doughquantity>
     <doughquantmul>5</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>5</breadid>
+    <doughid>30</doughid>
+    <doughName>Malt</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>5</breadid>
+    <doughid>31</doughid>
+    <doughName>Milk</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>6</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>5</breadid>
+    <doughid>32</doughid>
+    <doughName>Popy Seeds</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>5</breadid>
+    <doughid>33</doughid>
+    <doughName>Baking Soda</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>2</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>6</breadid>
+    <doughid>34</doughid>
+    <doughName>Normal Dough</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>13</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>6</breadid>
+    <doughid>35</doughid>
+    <doughName>Salt</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>6</breadid>
+    <doughid>36</doughid>
+    <doughName>Butter</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>6</breadid>
+    <doughid>37</doughid>
+    <doughName>Milk</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>5</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>6</breadid>
+    <doughid>38</doughid>
+    <doughName>Yeast</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>3</doughquantmul>
+  </doughdata>
+  <doughdata>
+    <breadid>6</breadid>
+    <doughid>39</doughid>
+    <doughName>Sugar</doughName>
+    <doughquantity>1</doughquantity>
+    <doughquantmul>4</doughquantmul>
   </doughdata>
 </ArrayOfDoughdata>

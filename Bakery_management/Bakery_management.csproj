@@ -82,12 +82,12 @@
     <Compile Include="Bake_page.xaml.cs">
       <DependentUpon>Bake_page.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Bread.cs" />
-    <Compile Include="BreadsStorage.cs" />
-    <Compile Include="doughdata.cs" />
-    <Compile Include="doughstorage.cs" />
-    <Compile Include="inventory.cs" />
-    <Compile Include="inventorystorage.cs" />
+    <Compile Include="Classes\Bread.cs" />
+    <Compile Include="Classes\BreadsStorage.cs" />
+    <Compile Include="Classes\doughdata.cs" />
+    <Compile Include="Classes\doughstorage.cs" />
+    <Compile Include="Classes\inventory.cs" />
+    <Compile Include="Classes\inventorystorage.cs" />
     <Compile Include="Pages\inventory_page.xaml.cs">
       <DependentUpon>inventory_page.xaml</DependentUpon>
     </Compile>

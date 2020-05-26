@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -32,7 +33,7 @@ namespace Bakery_management
             //Lbx_orders.ItemsSource == null;
             Lbx_orders.ItemsSource = App._breads;
             Dgrid_dough.ItemsSource = App._doughdata;
-           
+
         }
 
         private void Lbx_orders_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -62,14 +63,14 @@ namespace Bakery_management
             }
             //Bread bd = Lbx_orders.SelectedItem as Bread;
             //int doid = bd.id;
-            
 
-           
+
+
 
         }
 
         //search filter
-         private void Tbx_search_filter(object sender, TextChangedEventArgs e)
+        private void Tbx_search_filter(object sender, TextChangedEventArgs e)
         {
             var filter = (sender as TextBox).Text.ToLower();
             var lst = from s in App._breads where s.breadName.ToLower().Contains(filter) select s;
@@ -78,7 +79,7 @@ namespace Bakery_management
 
         private void Btn_add_click(object sender, RoutedEventArgs e)
         {
-            Bread bd = new Bread { breadName = "Edit..." ,quantity = 0 };
+            Bread bd = new Bread { breadName = "Edit...", quantity = 0 };
 
 
             App._breads.Add(bd);
@@ -101,5 +102,13 @@ namespace Bakery_management
             if (res == MessageBoxResult.OK)
                 App._breads.Remove(toDelete);
         }
+
+        private void Tbx_input_int(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("[^0-9]+");
+            e.Handled = regex.IsMatch(e.Text);
+        }
+
+       
     }
 }

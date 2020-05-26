@@ -3,47 +3,88 @@
   <Bread>
     <id>1</id>
     <breadName>Full Corn bread</breadName>
-    <quantity>10</quantity>
-    <recipe>1. Preheat oven to 400 degrees F.
-2. Spray an 8x8-inch baking dish or muffin tin with cooking spray (or line with paper liners). Set aside.
-3. In a large bowl, melt the butter in the microwave (or melt on the stove and transfer to a large bowl).
-4. Add the honey and applesauce and whisk to combine. Whisk in the buttermilk, egg and vanilla.
-5. Add the baking powder and salt and whisk until very well combined.
-6. Add the cornmeal and white whole wheat flour. Stir with a rubber spatula until barely combined. Be careful not to over-mix; it’s ok if you see a few streaks of flour in the batter.
-7. Transfer to the prepared baking dish (or scoop into the muffin tin).
-8. Bake for 22-25 minutes, until a tester inserted in the center comes out clean. (Bake muffins for 12-15 minutes. Let cool in the pan for 5 minutes before removing.) Serve warm.</recipe>
-    <prepTime>20 mins</prepTime>
-    <cookTime>20 mins </cookTime>
-    <total>40 mins </total>
+    <quantity>100</quantity>
+    <recipe>1.Preheat oven to 350º.
+2. In a bowl, combine cornmeal, flour, sugar, baking powder, and salt.
+3. Add the oil, melted butter, honey, eggs, and milk.
+4. Pour into a greased 8-inch square pan.
+5. Bake for 35 minutes.</recipe>
+    <prepTime>15 mins</prepTime>
+    <cookTime>35 mins</cookTime>
+    <total>50 mins</total>
   </Bread>
   <Bread>
     <id>2</id>
     <breadName>Wheat bread</breadName>
-    <quantity>10</quantity>
+    <quantity>15</quantity>
+    <recipe>1. In a large bowl, dissolve yeast in 3/4 cup warm water. Add the oil, sugar, molasses, salt and remaining water. Combine flours; add 4-5 cups flour to mixture. Beat until smooth. Add enough remaining flour to form a firm dough.
+2. Turn onto a floured surface; knead until smooth and elastic, about 6-8 minutes. Place in a greased bowl, turning once to grease top. Cover and let rise in a warm place until doubled, about 1 hour.
+3. Punch dough down. Turn onto a lightly floured surface; divide in half. Shape each portion into a loaf. Place in two greased 9x5-in. loaf pans. Cover and let rise until doubled, about 30 minutes.
+4. Bake at 350° for 40-45 minutes or until golden brown. Remove from pans to cool on wire racks.</recipe>
+    <prepTime>20 mins</prepTime>
+    <cookTime>40 mins</cookTime>
+    <total>60 mins</total>
   </Bread>
   <Bread>
     <id>3</id>
     <breadName>Whole Grain Rye Bread</breadName>
-    <quantity>10</quantity>
+    <quantity>20</quantity>
+    <recipe>1. In a small bowl or liquid measuring cup, sprinkle yeast over 1/2 cup water.Add 2 teaspoons honey.Whisk until yeast dissolves.Let stand until foamy, about 5 minutes.
+2. Add remaining 1 3/4 cups water to the bowl of an electric mixer fitted with the dough hook attachment, along with remaining 3 tablespoons honey, butter, caraway seeds, and salt.Mix on low to combine.Gradually add both flours,one cup at a time, mixing until dough comes away from sides of bowl and forms a ragged,slightly sticky ball.Butter a large bowl.
+3. Knead dough on a floured surface until smooth and elastic but still slightly tacky, about 5 minutes. Shape into a ball. Transfer to prepared bowl; cover with plastic wrap.
+4. Let dough stand in a warm place until it doubled in volume (it should not spring back when pressed), about 1 hour. Butter two 4 1/2-by-8 1/2-inch loaf pans. Punch down dough and divide in half.
+5. Working with one piece of dough at a time, shape into a 7-by-7-inch square. Fold dough into thirds; press seam to adhere and pinch ends to seal. Place seam-side down in loaf pan. Repeat process with remaining piece of dough.
+6. In a small bowl, mix egg white with 1 teaspoon water and brush mixture over tops of loaves; sprinkle with caraway seeds.
+7. Spray two pieces of plastic wrap with nonstick cooking spray; drape loaves with prepared plastic wrap and let stand until dough rises about 1 inch above tops of pans, 45 minutes to 1 hour.
+8. Preheat oven to 450 degrees on a conventional oven or 425 degrees on a convection oven. Reduce oven temperature to 400 degrees (conventional) or 375 degrees (convection).
+9. Uncover loaves and transfer to oven. Bake, rotating pans after 20 minutes, until tops are golden brown, about 45 minutes. Transfer to wire racks. Let cool slightly; turn out loaves. Let cool completely before slicing.</recipe>
+    <prepTime>15 mins</prepTime>
+    <cookTime>30 mins</cookTime>
+    <total>45 mins</total>
   </Bread>
   <Bread>
     <id>4</id>
     <breadName>Bread Rolls</breadName>
-    <quantity>10</quantity>
+    <quantity>30</quantity>
+    <recipe>1. Grease a large baking tray with oil. Sift the flour and salt into a large mixing bowl, then stir in the yeast and sugar, making sure the ingredients are well mixed.
+2. Make a well in the middle and gradually add 300ml warm water. Using a wooden spoon, mix to form a soft dough. Sprinkle a little flour onto a clean work surface and tip the dough out onto it.
+3. Knead the dough by pushing down into the middle to flatten and stretch it out, then folding it in half and pushing down into the centre again. Continue kneading the dough for around 10 mins until soft and smooth.
+4. Divide the dough into 8 pieces and roll gently to shape them into balls before placing them onto the baking tray. Cover the rolls loosely with lightly oiled clingfilm or a damp tea towel and leave to prove for around 45 mins in a warm place, or until they have doubled in size. Meanwhile, preheat the oven to gas 7, 220°C, fan 200°C.
+5. Bake the rolls for 18-20 mins until golden brown. Allow to cool slightly and serve warm.</recipe>
+    <prepTime>25 mins</prepTime>
+    <cookTime>30 mins</cookTime>
+    <total>55 mins</total>
   </Bread>
   <Bread>
     <id>5</id>
     <breadName>Pretzels</breadName>
-    <quantity>10</quantity>
+    <quantity>40</quantity>
+    <recipe>1. Add the flour, salt, yeast and butter to a bowl. In a jug, add the malt extract to the milk and stir to dissolve. Add the milk mixture gradually to the flour and mix until a dough is formed.
+2. Turn the dough out onto a clean work surface and knead. The dough should be stiff but not sticky, and shouldn’t need any extra flour to knead. Continue for 10 minutes, or until the dough is smooth and glossy.
+3. Divide the dough in half. To one half, add the zest of two oranges and the poppy seeds, and mix through, ensuring even distribution. Leave the other half plain. Place both doughs into separate oiled bowls, cover, and leave to prove until doubled in size (about 45 minutes).
+4. Preheat the oven to 200C/400F/Gas 6.
+5. Once proved, turn both the doughs out and divide each one into six equal pieces. Using your hands, take each piece, and roll the dough into a long sausage shape, tapering the ends, and creating a slight bulge in the middle. Each piece should be about 40-50cm/16-20in in length. You may need to roll out each of the strands just part way at first, then rest them, allowing the glutens to relax, before continuing to roll them out to their full length. This can help to prevent the strands springing back and creating unevenly shaped pieces. As you roll out the ropes you should apply some pressure to the dough, working from the middle outwards, pushing out any air bubbles that may have formed in the dough.
+6. The traditional and quickest way to shape a pretzel is to take hold of each end of the strand and lift it into the air to create a U-shape. Then, without letting go of the ends, and in one swift movement, flip the centre of the U, propelling it to form a double twist. Lay it back down on the work bench and lightly press the tapered ends onto the opposite sides of the pretzel, attaching them either side of the central bulge. You may find a little dab of water helps to stick the ends to the pretzel. Carefully flip the pretzels over and onto a baking tray lined with parchment paper, so that the ends are now face down. You should now have a classic pretzel shape with three equally spaced sections.
+7. Alternatively, shape each rope into a wide U-shape on the work bench. Take the two ends and manually twist them around each other twice before fixing the tapered end pieces to the opposite sides of the pretzel underneath the main circle of the pretzel so that you can’t see the joins. Press down lightly to seal, without misshaping the pretzel. Work quickly to shape all 12 pretzels.
+8. Add the bicarbonate of soda to 7 litres/12½pints of boiling water, and gently drop each pretzel into the boiling water for approximately five seconds. Gently remove and place on a baking tray, keeping the different flavours separate. While the plain dough is still wet from the water, sprinkle over the salt and sesame seeds.
+9. With a sharp knife, make a deep slash into the thickest part of the dough.
+10. Bake in the oven for 20-25 minutes, or until they are a deep brown colour.
+11. Meanwhile make the glaze for the sweet pretzels. Put the orange juice into a saucepan and add 100g/3½oz sugar. Add the zest, and bring up to the boil. Boil for one minute, then remove the zest using a slotted spoon and roll it in the remaining sugar. Continue to cook the syrup until reduced in volume and sticky. Pass through a fine sieve.
+12. Place the baked pretzels on a wire cooling rack, brush the sweet pretzels with the syrup glaze and sprinkle over the candied zest.</recipe>
+    <prepTime>35 mins</prepTime>
+    <cookTime>30 mins</cookTime>
+    <total>65 mins</total>
   </Bread>
   <Bread>
     <id>6</id>
-    <breadName>White Bread</breadName>
-    <quantity>10</quantity>
-  </Bread>
-  <Bread>
-    <id>0</id>
-    <breadName>Edit...</breadName>
-    <quantity>0</quantity>
+    <breadName>Milk Bread</breadName>
+    <quantity>8</quantity>
+    <recipe>1. Put the flour into a large bowl and add the salt. Add the butter and rub it into the flour with your fingertips until it’s like breadcrumbs. Tip in the yeast and sugar.
+2. Pour the milk into a large measuring jug and stir in 150ml water. Microwave on high for 2 minutes until warm. (Or warm in a pan over a medium heat.) Add to the flour and stir with a wooden spoon. Use your hands to mix the dough until it forms a soft dough that leaves the sides of the bowl clean.
+3. Sprinkle a work surface with flour, then tip the dough onto it. Stretch and work the dough for 10 minutes until smooth and elastic. Roll the dough into an oblong shape.
+4. Preheat the oven to 220°C/fan 200°C/gas 7. Grease a 900g loaf tin and add the dough. Cover with greased cling film and leave to rise in a warm place for about 25 minutes, until the dough is almost at the top. Discard the cling film, dust with some extra flour and bake for 30 minutes, until risen and golden brown. Cool in the tin for at least 20 minutes.</recipe>
+    <prepTime>40 mins</prepTime>
+    <cookTime>35 mins</cookTime>
+    <total>75 mins</total>
   </Bread>
 </ArrayOfBread>
